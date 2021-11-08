@@ -1,0 +1,18 @@
+prefix:
+  default: '&6[ChatManager]'
+  admin: '&4[ChatAdmin]'
+messages:
+  #this message can be seen by everyone in the chat
+  setOnlineChat: '&4Chat has been enabled!'
+  setOfflineChat: '&4Chat has been disabled!'
+  clearChat: '&4The chat has been cleared!'
+  #only the person writing the command can see this message
+  isOnlineChat: '&4Chat is already on!'
+  isOfflineChat: '&4Chat is already off!'
+
+#set on/off
+MessageFilter: 1
+MessageShowFilter: '&4This word is forbidden!'
+disableMessage:
+  - fuck
+  - bitch

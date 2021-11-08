@@ -1,0 +1,13 @@
+name: ChatManager
+main: com.kor3nt.chatmanager.ChatManager
+authors: [kor3nt]
+version: 1.0.0
+commands:
+  chat:
+    usage: /chat <on:off:clear>
+    aliases: [on, off, clear]
+    permission: chat.settings
+  ac:
+    usage: /ac <messages>
+    permission: chat.admin
+    permission-message: You don't have permission.
